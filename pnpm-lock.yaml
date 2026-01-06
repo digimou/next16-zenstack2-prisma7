@@ -12,8 +12,8 @@ importers:
         specifier: ^7.2.0
         version: 7.2.0(prisma@6.19.1(typescript@5.9.3))(typescript@5.9.3)
       '@zenstackhq/runtime':
-        specifier: 2.22.1
-        version: 2.22.1(@prisma/client@7.2.0(prisma@6.19.1(typescript@5.9.3))(typescript@5.9.3))(zod@4.3.5)
+        specifier: 2.22.2
+        version: 2.22.2(@prisma/client@7.2.0(prisma@6.19.1(typescript@5.9.3))(typescript@5.9.3))(zod@4.3.5)
       next:
         specifier: 16.1.1
         version: 16.1.1(@babel/core@7.28.5)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -832,12 +832,6 @@ packages:
 
   '@zenstackhq/language@2.22.2':
     resolution: {integrity: sha512-j3mcc3UDjRf5BIyqH0+G/gJ5btqusM1GfeOQlq23pmr9XUmt3ZTrFeiQRCxM/v3UIMfNfxPshqKlKBvTgi4Lrg==}
-
-  '@zenstackhq/runtime@2.22.1':
-    resolution: {integrity: sha512-u12W7z0uQDtpvILPmKOHZ3AC/3uEPnfkNbhMGllGREKEgU1qoKY9PWfHFlR3ZKK1fIxOQEW8NFcO8OsW4fUXFg==}
-    peerDependencies:
-      '@prisma/client': 5.0.0 - 7.x
-      zod: ^3.25.0 || ^4.0.0
 
   '@zenstackhq/runtime@2.22.2':
     resolution: {integrity: sha512-GgWSyU1nL1q89ZOS7O7cn9GWUcQ2ywavTp73RJvqRw0HSQ2r5sCi+wAyh2eAxqGTSnBob4jg2kq7CcFqcaze9A==}
@@ -3273,24 +3267,6 @@ snapshots:
   '@zenstackhq/language@2.22.2':
     dependencies:
       langium: 1.3.1
-
-  '@zenstackhq/runtime@2.22.1(@prisma/client@7.2.0(prisma@6.19.1(typescript@5.9.3))(typescript@5.9.3))(zod@4.3.5)':
-    dependencies:
-      '@prisma/client': 7.2.0(prisma@6.19.1(typescript@5.9.3))(typescript@5.9.3)
-      bcryptjs: 2.4.3
-      buffer: 6.0.3
-      decimal.js-light: 2.5.1
-      deepmerge: 4.3.1
-      logic-solver: 2.0.1
-      pluralize: 8.0.0
-      safe-json-stringify: 1.2.0
-      semver: 7.7.3
-      superjson: 1.13.3
-      ts-pattern: 4.3.0
-      tslib: 2.8.1
-      uuid: 9.0.1
-      zod: 4.3.5
-      zod-validation-error: 4.0.2(zod@4.3.5)
 
   '@zenstackhq/runtime@2.22.2(@prisma/client@7.2.0(prisma@6.19.1(typescript@5.9.3))(typescript@5.9.3))(zod@4.3.5)':
     dependencies:
