@@ -25,6 +25,6 @@
     "prisma": "^6.19.1",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "zenstack": "2.22.1"
+    "zenstack": "2.22.2"
   }
 }
